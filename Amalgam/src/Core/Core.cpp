@@ -67,7 +67,7 @@ void CCore::LogFailText()
 
 void CCore::Load()
 {
-	if (m_bUnload = m_bFailed = FNV1A::Hash32(GetProcessName(GetCurrentProcessId()).c_str()) != FNV1A::Hash32Const("tf_win64.exe"))
+	if (m_bUnload = m_bFailed = FNV1A::Hash32(GetProcessName(GetCurrentProcessId()).c_str()) != FNV1A::Hash32Const("betterfortress_win64.exe"))
 	{
 		AppendFailText("Invalid process");
 		return;
