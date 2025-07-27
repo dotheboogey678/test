@@ -27,7 +27,7 @@ static const char* SearchForDLL(const char* pszDLLSearch)
 	//std::stringstream ssModuleStream;
 	do
 	{
-		if (pe32.szExeFile == strstr(pe32.szExeFile, "tf_win64.exe"))
+		if (pe32.szExeFile == strstr(pe32.szExeFile, "betterfortress_win64.exe"))
 		{
 			HANDLE hModuleSnap = INVALID_HANDLE_VALUE;
 			MODULEENTRY32 me32;
